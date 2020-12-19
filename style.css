@@ -56,3 +56,30 @@ nav a {
     padding-top: 10px;
     font-size: 20px;
 }
+
+#portfolio > div {
+    width: 920px;
+    text-align: center;
+    margin: auto;
+}
+
+#portfolio h2 {
+    font-size: 32px;
+    color: #000000;
+    padding-top: 90px;
+    padding-bottom: 8px;
+    line-height: 1;
+}
+
+#portfolio .border {
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #ec715f;
+    margin: auto;
+}
+
+#portfolio p {
+    padding-top: 30px;
+    font-size: 16px;
+}
