@@ -57,6 +57,10 @@ nav a {
     font-size: 20px;
 }
 
+#portfolio {
+    background-color: #eceff1;
+}
+
 #portfolio > div {
     width: 920px;
     text-align: center;
@@ -82,4 +86,52 @@ nav a {
 #portfolio p {
     padding-top: 30px;
     font-size: 16px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.img-box {
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.img-box:nth-child(1) {
+    background-image: url(img/sketch.jpg);
+}
+
+.img-box:nth-child(2) {
+    background-image: url(img/websuku.png);
+}
+
+.img-box:nth-child(3) {
+    background-image: url(img/write.jpg);
+}
+
+.img-box:nth-child(4) {
+    background-image: url(img/webcamp.png);
+}
+
+.img-box:nth-child(5) {
+    background-image: url(img/talk.jpg);
+}
+
+.img-box:nth-child(6) {
+    background-image: url(img/webcamp-mother.png);
+}
+
+.img-box:nth-child(1), .img-box:nth-child(2), .img-box:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.img-box:nth-child(3n+1), .img-box:nth-child(3n+2) {
+    margin-right: 10px;
 }
