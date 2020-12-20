@@ -75,7 +75,7 @@ nav a {
     line-height: 1;
 }
 
-#portfolio .border {
+.border {
     content: "";
     width: 70px;
     height: 3px;
@@ -133,5 +133,57 @@ nav a {
 }
 
 .img-box:nth-child(3n+1), .img-box:nth-child(3n+2) {
+    margin-right: 10px;
+}
+
+#feature > div {
+    width: 980px;
+    margin: auto;
+}
+
+#feature h2, #feature > div > p {
+    text-align: center;
+}
+
+#feature h2 {
+    padding-top: 90px;
+    font-size: 32px;
+    color: #000000;
+}
+
+#feature > div > p {
+    padding-top: 30px;    
+}
+
+#feature p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.strength-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.strength {
+    width: 320px;
+}
+
+.strength .icon {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.strength h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.strength:nth-child(1), .strength:nth-child(2) {
     margin-right: 10px;
 }
