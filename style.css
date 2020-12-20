@@ -24,9 +24,16 @@ header img {
     max-height: 100%;
 }
 
+.hamburger {
+    display: none;
+    margin: auto 0 auto auto;
+    color: #fafafa;
+    font-size: 40px;
+    
+}
+
 nav {
     margin: auto 0 auto auto;
-    
 }
 
 nav a {
@@ -34,10 +41,6 @@ nav a {
     font-size: 16px;
     color: #fafafa;
     text-decoration: none;
-}
-
-#main-visual {
-    
 }
 
 #main-visual > div {
@@ -83,6 +86,10 @@ nav a {
 
 section {
     padding-bottom: 90px;
+}
+
+section:nth-child(1) {
+    padding-bottom: 0;
 }
 
 .border {
@@ -287,3 +294,65 @@ footer {
     color: #fafafa;
     line-height: 60px;
 }
+
+@media screen and (max-width:768px) {
+    header {
+        height: 50px;
+    }
+
+    header > div {
+        width: 90%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    #main-visual > div {
+        background-image: url(img/code.png);
+    }
+
+    #main-visual h1 {
+        font-size: 40px;
+    }
+
+    #main-visual p {
+        font-size: 18px;
+    }
+
+    #portfolio > div {
+        width: 90%;
+    }
+
+    .img-box {
+        margin: auto;
+    }
+
+    .img-box:nth-child(odd) {
+        display: none;
+    }
+
+    .img-box:nth-child(even) {
+        margin: auto auto 10px auto;
+    }
+
+    #feature > div {
+        width: 90%;
+    }
+
+    #feature p {
+        text-align: center;
+    }
+
+    .strength:nth-child(1), .strength:nth-child(2), .strength {
+        margin: auto;
+    }
+
+    .strength:nth-child(2), .strength:nth-child(3) {
+        padding-top: 10px;
+    }
+  }
