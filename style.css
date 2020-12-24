@@ -355,4 +355,8 @@ footer {
     .strength:nth-child(2), .strength:nth-child(3) {
         padding-top: 10px;
     }
+
+    #profile > div {
+        width: 90%;
+    }
   }
