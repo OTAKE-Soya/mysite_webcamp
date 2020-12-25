@@ -359,4 +359,26 @@ footer {
     #profile > div {
         width: 90%;
     }
-  }
+
+    .profile-data {
+        display: inline-block;
+        text-align: center;
+        /* margin: auto; */
+    }
+
+    .profile-data > div {
+        width: auto;
+    }
+
+    .profile-text > h3:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    /* .profile-img, .profile-text {
+        margin: auto;
+    } */
+
+
+
+
+}
