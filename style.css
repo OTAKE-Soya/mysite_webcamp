@@ -324,8 +324,16 @@ footer {
         font-size: 18px;
     }
 
-    #portfolio > div {
+    section:not(#main-visual) > div{
         width: 90%;
+    }
+
+    /* #portfolio > div {
+        width: 90%;
+    } */
+
+    #portfolio .boxes {
+        display: block;
     }
 
     .img-box {
@@ -340,12 +348,16 @@ footer {
         margin: auto auto 10px auto;
     }
 
-    #feature > div {
+    /* #feature > div {
         width: 90%;
-    }
+    } */
 
     #feature p {
         text-align: center;
+    }
+
+    .strength-boxes {
+        display: block;
     }
 
     .strength:nth-child(1), .strength:nth-child(2), .strength {
@@ -356,9 +368,9 @@ footer {
         padding-top: 10px;
     }
 
-    #profile > div {
+    /* #profile > div {
         width: 90%;
-    }
+    } */
 
     .profile-data {
         display: inline-block;
@@ -377,6 +389,30 @@ footer {
     /* .profile-img, .profile-text {
         margin: auto;
     } */
+
+    #contact {
+        text-align: center;
+    }
+
+    .contact-box {
+        display: block;
+    }
+
+    .contact-box > div {
+        margin: auto;
+    }
+
+    .mail-tell {
+        padding-bottom: 20px;
+    }
+
+    .sns i {
+        padding-right: 8px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
 
 
 
